@@ -12,17 +12,29 @@
   <header>
     <div class="top-blue-line">
     </div>
-    <nav>
+    <div>
       <div>
         <img src="{{ asset('img/dc-logo.png') }}" alt="dc logo">
       </div>
-      <div>
+      <nav>
         {{-- nav links --}}
-      </div>
+        <ul>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+          <li><a href="{{ route('') }}"></a></li>
+        </ul>
+      </nav>
       <div>
         {{-- search bar --}}
       </div>
-    </nav>
+    </div>
     <div class="hero">
       {{-- hero --}}
     </div>
