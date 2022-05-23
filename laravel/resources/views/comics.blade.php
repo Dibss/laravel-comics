@@ -10,7 +10,22 @@
 <body>
 
   <header>
-    <img src="{{ asset('img/dc-log.png') }}" alt="dc logo">
+    <div class="top-blue-line">
+    </div>
+    <nav>
+      <div>
+        <img src="{{ asset('img/dc-logo.png') }}" alt="dc logo">
+      </div>
+      <div>
+        {{-- nav links --}}
+      </div>
+      <div>
+        {{-- search bar --}}
+      </div>
+    </nav>
+    <div class="hero">
+      {{-- hero --}}
+    </div>
   </header>
   
 </body>
