@@ -23,11 +23,14 @@
       <span>CURRENT SERIES</span>
     </div>
     <div class="current-series">
-      <div>
-        @foreach ($comics as $key -> $comic)
-          <img src="{{$comic['thumb']}}" alt="{{$comic['title']}} poster">
-        @endforeach
-      </div>
+      @foreach ($comics as $key => $comic)
+      <div class="comic">
+          <a href="/comics/{{$key}}">
+            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }} poster">
+            <span>{{ $comic['title'] }}</span>
+          </a>
+        </div>
+      @endforeach
       <div class="btn">
         <span><a href="#">LOAD MORE</a></span>
       </div>
