@@ -24,9 +24,9 @@
     </div>
     <div class="current-series">
       <div>
-        {{-- @foreach ($comics as $key -> $comic)
+        @foreach ($comics as $key -> $comic)
           <img src="{{$comic['thumb']}}" alt="{{$comic['title']}} poster">
-        @endforeach --}}
+        @endforeach
       </div>
       <div class="btn">
         <span><a href="#">LOAD MORE</a></span>
@@ -36,6 +36,7 @@
 @endsection
 
 @section('features')
+
   <div class="features">
     <div class="features__content">
       <div>

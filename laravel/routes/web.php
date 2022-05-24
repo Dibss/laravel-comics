@@ -19,7 +19,7 @@ Route::get('/comics', function () {
 
     $comics = config('comics');
 
-    return view('comics.comics');
+    return view('comics.comics', ['comics' -> $comics]);
     
 })->name('comics');
 
