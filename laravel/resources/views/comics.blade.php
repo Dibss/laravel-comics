@@ -1,44 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-  <title>Comics</title>
-</head>
-<body>
+@extends('layout.layout')
 
-  <header>
-    <div class="top-blue-line">
+@section('title', 'Comics')
+
+@section('nav-links')
+  <ul>
+    <li><a href="{{ route('characters') }}">Characters</a></li>
+    <li><a href="{{ route('comics') }}" class="active">Comics</a></li>
+    <li><a href="{{ route('movies') }}">Movies</a></li>
+    <li><a href="{{ route('tv') }}">Tv</a></li>
+    <li><a href="{{ route('games') }}">Games</a></li>
+    <li><a href="{{ route('collectibles') }}">Collectibles</a></li>
+    <li><a href="{{ route('videos') }}">Videos</a></li>
+    <li><a href="{{ route('fans') }}">Fans</a></li>
+    <li><a href="{{ route('news') }}">News</a></li>
+    <li><a href="#">Shop</a></li>
+  </ul>
+@endsection
+
+@section('main-content')
+  <div class="comics">
+    <div class="btn-tag">
+      <span>CURRENT SERIES</span>
     </div>
-    <div>
+    <div class="current-series">
       <div>
-        <img src="{{ asset('img/dc-logo.png') }}" alt="dc logo">
-      </div>
-      <nav>
-        {{-- nav links --}}
-        <ul>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-          <li><a href="{{ route('') }}"></a></li>
-        </ul>
-      </nav>
-      <div>
-        {{-- search bar --}}
+        <h2>Coming Soon</h2>
+        <div class="btn">
+          <span><a href="#">LOAD MORE</a></span>
+        </div>
       </div>
     </div>
-    <div class="hero">
-      {{-- hero --}}
-    </div>
-  </header>
-  
-</body>
-</html>
+  </div>
+@endsection
