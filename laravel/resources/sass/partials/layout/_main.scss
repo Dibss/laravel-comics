@@ -10,17 +10,28 @@ main{
     }
     .current-series{
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-wrap: wrap;
-      height: 40vh;
-      width: 60%;
-      margin: 0 auto;
-      h2{
-        color: #fff;
-        flex-basis: 100%;
-        text-align: center;
-        margin: 5vh 0;
+      justify-content: space-between;
+      width: 98%;
+      margin: 1em auto 0;
+      .comic{
+        margin: 1em 0;
+        width: calc(100% / 6);
+        img{
+          // clip-path: inset(0 0 35% 0);
+          width: 180px;
+          height: 180px;
+          object-fit: cover;
+          object-position: top;
+          margin-bottom: 0.6em;
+        }
+        span{
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 0.9rem;
+          width: 95%;
+          display: inline-block;
+        }
       }
     }
   }
