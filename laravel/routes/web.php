@@ -1,7 +1,3 @@
-<!-- Create una pagina di dettaglio per visualizzare tutte le informazioni di un fumetto.
-Definite quindi una rotta che avrà un parametro per poter visualizzare dinamicamente tutte le pagine di dettaglio.
-Infine, fate sì che cliccando sulla card di un fumetto si possa accedere alla relativa pagina di dettaglio. -->
-
 <?php
 
 use Illuminate\Support\Facades\Route;
