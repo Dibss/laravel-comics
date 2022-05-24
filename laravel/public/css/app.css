@@ -77,6 +77,7 @@ header .top-nav input[type=text] {
 }
 
 header .hero {
+  background-image: url("/images/jumbotron.jpg");
   background-color: lightblue;
   background-position: top;
   background-repeat: no-repeat;
@@ -89,7 +90,6 @@ header .hero {
 
 main {
   background-color: #1c1c1c;
-  height: 50vh;
 }
 
 main .container {
@@ -118,27 +118,42 @@ main .container .current-series h2 {
   margin: 5vh 0;
 }
 
-footer .features {
+main .features {
   background-color: #0282f9;
 }
 
-footer .features__content {
+main .features__content {
   width: 65%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4em 0;
+  padding: 1em 0;
 }
 
-footer .features__content div a {
+main .features__content div {
+  display: flex;
+  align-items: center;
+}
+
+main .features__content div a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   padding: 0 1em;
 }
 
+main .features__content div img {
+  width: 3vw;
+  height: auto;
+}
+
+main .features__content div #shop-locator {
+  width: 2.5vw;
+}
+
 footer .footer {
+  background-image: url("/images/footer-bg.jpg");
   background-color: #1c1c1c;
   background-position: center;
   background-size: cover;
@@ -180,6 +195,8 @@ footer .footer__content .links .link-col a {
 }
 
 footer .footer__content .logo {
+  flex-basis: 50%;
+  background-image: url("/images/dc-logo-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
