@@ -1,0 +1,28 @@
+@import '../utilities/variables';
+
+main{
+  background-color: $bg-main;
+  height: 50vh;
+  .container{
+    width: 70%;
+    margin: 0 auto;
+    .btn-tag{
+      margin-top: -10px;
+    }
+    .current-series{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 40vh;
+      width: 60%;
+      margin: 0 auto;
+      h2{
+        color: #fff;
+        flex-basis: 100%;
+        text-align: center;
+        margin: 5vh 0;
+      }
+    }
+  }
+}

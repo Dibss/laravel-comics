@@ -1,9 +1,71 @@
+@import './utilities/variables';
+
 header{
+  .top-blue-line{
+    background-color: $dc-blue;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      width: 65%;
+      margin: 0 auto;
+      li{
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: 700;
+        margin-left: 5em;
+      }
+    }
+  }
+  .top-nav{
+    width: 65%;
+    margin: 0 auto;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      width: 70%;
+      height: auto;
+    }
+    nav{
+      ul{
+        li{
+          padding: 0em 1em;
+          .active{
+            color: $dc-blue;
+          }
+          a{
+            color: $nav-link;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 0.9rem;
+          }
+          &:hover a{
+            color: $dc-blue;
+          }
+        }
+      }
+    }
+    input[type=text]{
+      border: none;
+      border-bottom: 2px solid $dc-blue;
+      text-align: right;
+      padding-right: 0.8em;
+      width: 60%;
+    }
+  }
   .hero{
-    // background-image: url('./images/jumbotron.jpg');
+    // background-image: url('../../../public/images/jumbotron.jpg');
+    background-color: lightblue;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

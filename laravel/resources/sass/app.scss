@@ -1,4 +1,7 @@
 //
+@import './partials/base/reset';
+@import './partials/utilities/variables';
 @import './partials/header';
-@import './partials/reset';
-@import './partials/variables';
+@import './partials/layout/main';
+@import './partials/layout/footer';
+@import './partials/components/components'

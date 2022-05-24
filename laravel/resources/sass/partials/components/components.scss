@@ -1,0 +1,36 @@
+.btn{
+  background-color: $dc-blue;
+  padding: 0.3em 0.6em;
+  text-align: center;
+  a{
+    color: #fff;
+    text-decoration: none; 
+    font-weight: 700;
+  }
+}
+
+.btn-tag{
+  background-color: $dc-blue;
+  padding: 0.8em 1.5em;
+  text-align: center;
+  display: inline-block;
+  span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+}
+
+.btn-signup{
+  span{
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid $dc-blue;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    font-weight: 700;
+    &:hover{
+      background-color: $dc-blue;
+    }
+  }
+}
