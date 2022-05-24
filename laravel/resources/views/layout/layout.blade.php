@@ -16,7 +16,7 @@
     <div class="top-blue-line">
     <ul>
       <li>DC POWER&#8480; VISA&#174;</li>
-      <li>ADDITIONAL DC SITES<i class="fa-solid fa-caret-down"></i></li>
+      <li>ADDITIONAL DC SITES <i class="fa-solid fa-caret-down"></i></li>
     </ul>
     </div>
     <div class="top-nav">
@@ -33,7 +33,6 @@
     </div>
     <div class="hero">
       {{-- hero --}}
-      <h2>il computer impazzisce se metto l'immagine</h2>
     </div>
   </header>
 
@@ -41,34 +40,11 @@
     <div class="container">
       @yield('main-content')
     </div>
+    @yield('features')
   </main>
 
 {{-- @include('partials.footer') --}}
   <footer>
-    <div class="features">
-      <div class="features__content">
-        <div>
-          <img src="../../../public/images/buy-comics-digital-comics.png" alt="buy digital comics">
-          <a href="#"><span>digital comics</span></a>
-        </div>
-        <div>
-          <img src="../../../public/images/buy-comics-merchandise.png" alt="dc merchandise">
-          <a href="#"><span>dc merchandise</span></a>
-        </div>
-        <div>
-          <img src="../../../public/images/buy-comics-subscriptions.png" alt="subscribe">
-          <a href="#"><span>subscription</span></a>
-        </div>
-        <div>
-          <img src="../../../public/images/buy-comics-shop-locator.png" alt="dc shop locator">
-          <a href="#"><span>comic shop locator</span></a>
-        </div>
-        <div>
-          <img src="../../../public/images/buy-dc-power-visa.png" alt="dc power visa">
-          <a href="#"><span>dc power visa</span></a>
-        </div>
-      </div>
-    </div>
     <div class="footer">
       <div class="footer__content">
         <div class="links">
@@ -128,11 +104,11 @@
         <div class="links">
           <span>follow us</span>
           <div>
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="youtube">
-            <img src="" alt="pinterest">
-            <img src="" alt="">
+            <a href="#"><img src="/images/footer-facebook.png" alt="facebook logo"></a>
+            <a href="#"><img src="/images/footer-twitter.png" alt="twitter logo"></a>
+            <a href="#"><img src="/images/footer-youtube.png" alt="youtube logo"></a>
+            <a href="#"><img src="/images/footer-pinterest.png" alt="pinterest logo"></a>
+            <a href="#"><img src="/images/footer-periscope.png" alt="periscope logo"></a>
           </div>
         </div>
       </div>

@@ -19,17 +19,17 @@ Route::get('/comics', function () {
 
     $comics = config('comics');
 
-    return view('comics.comics', ['comics' -> $comics]);
+    return view('comics.comics');
     
 })->name('comics');
 
-Route::get('/comics/{id}', function ($id) {
+// Route::get('/comics/{id}', function ($id) {
 
-    $comics = config('comics');
+//     $comics = config('comics');
 
-    return view('comics.comic', ['comics' -> $comics]);
+//     return view('comics.comic', ['comics' -> $comics]);
     
-})->name('comic');
+// })->name('comic');
 
 // SUBPAGES
 
