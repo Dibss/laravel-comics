@@ -265,3 +265,8 @@ footer .social__content .links div img {
   background-color: #0282f9;
 }
 
+.btn-signup span a {
+  color: #fff;
+  text-decoration: none;
+}
+

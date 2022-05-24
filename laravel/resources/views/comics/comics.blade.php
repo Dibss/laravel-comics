@@ -24,10 +24,12 @@
     </div>
     <div class="current-series">
       <div>
-        <h2>Coming Soon</h2>
-        <div class="btn">
-          <span><a href="#">LOAD MORE</a></span>
-        </div>
+        @foreach ($comics as $comic)
+          <img src="{{$comic['thumb']}}" alt="{{$comic['title']}} poster">
+        @endforeach
+      </div>
+      <div class="btn">
+        <span><a href="#">LOAD MORE</a></span>
       </div>
     </div>
   </div>

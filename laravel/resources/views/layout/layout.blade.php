@@ -123,7 +123,7 @@
     <div class="social">
       <div class="social__content">
         <div class="btn-signup">
-          <span>sign-up now!</span>
+          <span><a href="#">sign-up now!</a></span>
         </div>
         <div class="links">
           <span>follow us</span>
