@@ -24,7 +24,7 @@
     </div>
     <div class="current-series">
       <div>
-        @foreach ($comics as $comic)
+        @foreach ($comics as $key -> $comic)
           <img src="{{$comic['thumb']}}" alt="{{$comic['title']}} poster">
         @endforeach
       </div>
