@@ -15,13 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 // PAGINA PRINCIPALE MOMENTANEA
 
-Route::get('/', function () {
+Route::get('/comics', function () {
 
     $comics = config('comics');
 
     return view('comics.comics', ['comics' -> $comics]);
     
 })->name('comics');
+
+Route::get('/comics/{id}', function ($id) {
+
+    $comics = config('comics');
+
+    return view('comics.comic', ['comics' -> $comics]);
+    
+})->name('comic');
 
 // SUBPAGES
 
