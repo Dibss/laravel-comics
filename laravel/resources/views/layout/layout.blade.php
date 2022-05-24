@@ -91,6 +91,9 @@
               <li><a href="#">DC Power Visa</a></li>
             </ul>
           </div>
+          <div class="right">
+            <span>All Site Content TM and &#169; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All right reserved. <br><a href="#">Cookie Settings</a></span>
+          </div>
         </div>
         <div class="logo">
         </div>
