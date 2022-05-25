@@ -13,12 +13,21 @@
     <li><a href="{{ route('videos') }}">Videos</a></li>
     <li><a href="{{ route('fans') }}">Fans</a></li>
     <li><a href="{{ route('news') }}">News</a></li>
-    <li><a href="#">Shop</a></li>
+    <li><a href="#">Shop <i class="fa-solid fa-caret-down"></i></a></li>
   </ul>
+@endsection
+
+@section('comic-poster')
+  <div class="blue-line"></div>
+  <div class="comic-poster">
+    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title']}} poster">
+    <span class="type">{{ $comic['type'] }}</span>
+    <span class="gallery">VIEW GALLERY</span>
+  </div>
 @endsection
 
 @section('main-content')
   <div class="comic-page">
-    
+
   </div>
 @endsection

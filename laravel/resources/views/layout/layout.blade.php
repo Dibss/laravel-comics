@@ -33,6 +33,7 @@
     </div>
     <div class="hero">
       {{-- hero --}}
+      @yield('comic-poster')
     </div>
   </header>
 

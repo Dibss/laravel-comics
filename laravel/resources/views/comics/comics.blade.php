@@ -13,7 +13,7 @@
     <li><a href="{{ route('videos') }}">Videos</a></li>
     <li><a href="{{ route('fans') }}">Fans</a></li>
     <li><a href="{{ route('news') }}">News</a></li>
-    <li><a href="#">Shop</a></li>
+    <li><a href="#">Shop <i class="fa-solid fa-caret-down"></i></a></li>
   </ul>
 @endsection
 
@@ -25,7 +25,7 @@
     <div class="current-series">
       @foreach ($comics as $key => $comic)
       <div class="comic">
-          <a href="/comics/{{$key}}">
+          <a href="{{ route( 'comic', ['id' => $key] ) }}">
             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }} poster">
             <span>{{ $comic['title'] }}</span>
           </a>
