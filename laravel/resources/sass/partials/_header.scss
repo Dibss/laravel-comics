@@ -16,6 +16,11 @@ header{
         font-size: 0.7rem;
         font-weight: 700;
         margin-left: 5em;
+        a{
+          .fa-caret-down{
+            color: $dc-blue;
+          }
+        }
       }
     }
   }

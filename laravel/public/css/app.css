@@ -35,6 +35,10 @@ header .top-blue-line ul li {
   margin-left: 5em;
 }
 
+header .top-blue-line ul li a .fa-caret-down {
+  color: #0282f9;
+}
+
 header .top-nav {
   width: 65%;
   margin: 0 auto;
