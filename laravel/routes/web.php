@@ -27,11 +27,14 @@ Route::get('/comics/{id}', function ($id) {
 
     $comics = config('comics');
 
-    return view('comics.partials.comic', ['comics' => $comics]);
-    
-})->name('comic');
+    if (!is_numeric($id) && $id > count($comics)) {
+        abort(404);
+    } else {
+        $comic = $comics[$id];
+        return view('comics.partials.comic', ['comic' => $comic]);
+    }
 
-// SUBPAGES
+})->name('comic');
 
 Route::get('/characters', function () {
 
