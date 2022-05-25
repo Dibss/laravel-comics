@@ -24,13 +24,8 @@
         <div class="btn-tag">
           <span>MOVIES</span>
         </div>
-        <div class="current-series">
-          <div>
-            <h2>Coming Soon</h2>
-            <div class="btn">
-              <span><a href="#">LOAD MORE</a></span>
-            </div>
-          </div>
+        <div class="cs">
+          <h2>Coming soon...</h2>
         </div>
       </div>
     </div>

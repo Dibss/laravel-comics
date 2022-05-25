@@ -152,6 +152,17 @@ main .container {
   margin: 0 auto;
 }
 
+main .container .cs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+}
+
+main .container .cs h2 {
+  color: #fff;
+}
+
 main .container .btn-tag {
   margin-top: -22px;
 }

@@ -6,6 +6,15 @@ main{
   .container{
     width: 70%;
     margin: 0 auto;
+    .cs{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5vh 0;
+      h2{
+        color: #fff;
+      }
+    }
     .btn-tag{
       margin-top: -22px;
     }
