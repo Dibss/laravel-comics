@@ -134,19 +134,22 @@ main{
           display: flex;
           align-items: center;
           h4{
-            flex-basis: 40%;
+            flex-basis: 30%;
             color: $comic-title;
             font-weight: normal;
             font-size: 0.8rem;
           }
-          span{
-            flex-basis: 60%;
-            font-size: 0.8rem;
-            color: #555555;
-            a{
-              text-decoration: none;
-              color: $dc-blue;
-              font-weight: 700;
+          .details-list{
+            flex-basis: 70%;
+            display: block;
+            span{
+              font-size: 0.8rem;
+              color: #555555;
+              a{
+                text-decoration: none;
+                color: $dc-blue;
+                font-weight: 700;
+              }
             }
           }
         }

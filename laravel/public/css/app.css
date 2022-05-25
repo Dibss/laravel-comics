@@ -311,21 +311,26 @@ main .container .comic-page-details .specs div {
 
 main .container .comic-page-details .talent div h4,
 main .container .comic-page-details .specs div h4 {
-  flex-basis: 40%;
+  flex-basis: 30%;
   color: #003f5e;
   font-weight: normal;
   font-size: 0.8rem;
 }
 
-main .container .comic-page-details .talent div span,
-main .container .comic-page-details .specs div span {
-  flex-basis: 60%;
+main .container .comic-page-details .talent div .details-list,
+main .container .comic-page-details .specs div .details-list {
+  flex-basis: 70%;
+  display: block;
+}
+
+main .container .comic-page-details .talent div .details-list span,
+main .container .comic-page-details .specs div .details-list span {
   font-size: 0.8rem;
   color: #555555;
 }
 
-main .container .comic-page-details .talent div span a,
-main .container .comic-page-details .specs div span a {
+main .container .comic-page-details .talent div .details-list span a,
+main .container .comic-page-details .specs div .details-list span a {
   text-decoration: none;
   color: #0282f9;
   font-weight: 700;

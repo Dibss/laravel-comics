@@ -57,9 +57,23 @@
           <h3>Talent</h3>
           <div>
             <h4>Art by:</h4>
+            <div class="details-list">
+              @forelse ($comic['artists'] as $artist)
+              <span><a href="#">{{ $artist }}</a>, </span>
+              @empty
+              <span>Informazione non presente</span>
+              @endforelse
+            </div>
           </div>
           <div>
             <h4>Written by</h4>
+            <div class="details-list">
+              @forelse ($comic['writers'] as $writer)
+              <span><a href="#">{{ $writer }}</a>, </span>
+              @empty
+              <span>Informazione non presente</span>
+              @endforelse
+            </div>
           </div>
         </div>
         <div class="specs">
