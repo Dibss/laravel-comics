@@ -320,11 +320,11 @@ main .container .comic-page-details .specs div span a {
   font-weight: 700;
 }
 
-main .container .features {
+main .features {
   background-color: #0282f9;
 }
 
-main .container .features__content {
+main .features__content {
   width: 65%;
   margin: 0 auto;
   display: flex;
@@ -333,24 +333,24 @@ main .container .features__content {
   padding: 1em 0;
 }
 
-main .container .features__content div {
+main .features__content div {
   display: flex;
   align-items: center;
 }
 
-main .container .features__content div a {
+main .features__content div a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   padding: 0 1em;
 }
 
-main .container .features__content div img {
+main .features__content div img {
   width: 3vw;
   height: auto;
 }
 
-main .container .features__content div #shop-locator {
+main .features__content div #shop-locator {
   width: 2.5vw;
 }
 

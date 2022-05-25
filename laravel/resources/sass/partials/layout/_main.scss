@@ -143,31 +143,31 @@ main{
         }
       }
     }
-    .features{
-      background-color: $dc-blue;
-      &__content{
-        width: 65%;
-        margin: 0 auto;
+  }
+  .features{
+    background-color: $dc-blue;
+    &__content{
+      width: 65%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 0;
+      div{
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        padding: 1em 0;
-        div{
-          display: flex;
-          align-items: center;
-          a{
-            text-decoration: none;
-            text-transform: uppercase;
-            color: #fff;
-            padding: 0 1em;
-          }
-          img{
-            width: 3vw;
-            height: auto;
-          }
-          #shop-locator{
-            width: 2.5vw;
-          }
+        a{
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          padding: 0 1em;
+        }
+        img{
+          width: 3vw;
+          height: auto;
+        }
+        #shop-locator{
+          width: 2.5vw;
         }
       }
     }
