@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // PAGINA PRINCIPALE MOMENTANEA
-
-Route::get('/comics', function () {
+Route::get('/', function () {
 
     $comics = config('comics');
 
