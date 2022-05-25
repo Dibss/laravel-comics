@@ -27,7 +27,23 @@
 @endsection
 
 @section('main-content')
-  <div class="comic-page">
-
+  <div class="container">
+    <div class="comic-page">
+      <div class="comic-page__overview">
+        <h2>{{ $comic['title']}}</h2>
+      </div>
+      <div class="comic-page__ad">
+        <div>
+          <span>advertisement</span>
+          <img src="/images/adv.jpg" alt="ad">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dirtywhite">
+    <div class="container">
+      <div class="comic-page-details">
+      </div>
+    </div>
   </div>
 @endsection

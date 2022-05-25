@@ -187,6 +187,42 @@ main .container .current-series .comic span {
   display: inline-block;
 }
 
+main .container .comic-page {
+  width: 78%;
+  margin: 6vh auto;
+  display: flex;
+}
+
+main .container .comic-page__overview {
+  flex-basis: 75%;
+}
+
+main .container .comic-page__overview h2 {
+  text-transform: uppercase;
+  color: #003f5e;
+  font-size: 1.6rem;
+}
+
+main .container .comic-page__ad {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+main .container .comic-page__ad span {
+  text-transform: uppercase;
+  color: #555555;
+  font-weight: 700;
+  text-align: right;
+  display: block;
+  font-size: 0.9rem;
+}
+
+main .container .comic-page__ad img {
+  max-width: 100%;
+  height: auto;
+}
+
 main .features {
   background-color: #0282f9;
 }

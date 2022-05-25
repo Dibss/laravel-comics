@@ -35,6 +35,36 @@ main{
         }
       }
     }
+    .comic-page{
+      width: 78%;
+      margin: 6vh auto;
+      display: flex;
+      &__overview{
+        flex-basis: calc(100% / 12 * 9);
+        h2{
+          text-transform: uppercase;
+          color: $comic-title;
+          font-size: 1.6rem;
+        }
+      }
+      &__ad{
+        flex-basis: calc(100% / 12 * 3);
+        display: flex;
+        justify-content: center;
+        span{
+          text-transform: uppercase;
+          color: #555555;
+          font-weight: 700;
+          text-align: right;
+          display: block;
+          font-size: 0.9rem;
+        }
+        img{
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
   }
   .features{
     background-color: $dc-blue;
