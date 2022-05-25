@@ -143,6 +143,10 @@ main .bg-dark {
   background-color: #1c1c1c;
 }
 
+main .bg-dirtywhite {
+  background-color: #f6f6f6;
+}
+
 main .container {
   width: 70%;
   margin: 0 auto;
