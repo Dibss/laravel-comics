@@ -18,21 +18,25 @@
 @endsection
 
 @section('main-content')
-  <div class="comics">
-    <div class="btn-tag">
-      <span>CURRENT SERIES</span>
-    </div>
-    <div class="current-series">
-      @foreach ($comics as $key => $comic)
-      <div class="comic">
-          <a href="{{ route( 'comic', ['id' => $key] ) }}">
-            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }} poster">
-            <span>{{ $comic['title'] }}</span>
-          </a>
+  <div class="bg-dark">
+    <div class="container">
+      <div class="comics">
+        <div class="btn-tag">
+          <span>CURRENT SERIES</span>
         </div>
-      @endforeach
-      <div class="btn">
-        <span><a href="#">LOAD MORE</a></span>
+        <div class="current-series">
+          @foreach ($comics as $key => $comic)
+          <div class="comic">
+              <a href="{{ route( 'comic', ['id' => $key] ) }}">
+                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }} poster">
+                <span>{{ $comic['title'] }}</span>
+              </a>
+            </div>
+          @endforeach
+          <div class="btn">
+            <span><a href="#">LOAD MORE</a></span>
+          </div>
+        </div>
       </div>
     </div>
   </div>

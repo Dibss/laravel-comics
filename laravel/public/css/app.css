@@ -135,7 +135,7 @@ header .hero .comic-poster .gallery {
   padding: 0.1em 0;
 }
 
-main {
+main .bg-dark {
   background-color: #1c1c1c;
 }
 

@@ -38,9 +38,7 @@
   </header>
 
   <main>
-    <div class="container">
-      @yield('main-content')
-    </div>
+    @yield('main-content')
     @yield('features')
   </main>
 

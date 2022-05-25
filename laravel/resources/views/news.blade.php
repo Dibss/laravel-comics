@@ -18,15 +18,19 @@
 @endsection
 
 @section('main-content')
-  <div class="news">
-    <div class="btn-tag">
-      <span>NEWS</span>
-    </div>
-    <div class="current-series">
-      <div>
-        <h2>Coming Soon</h2>
-        <div class="btn">
-          <span><a href="#">LOAD MORE</a></span>
+  <div class="bg-dark">
+    <div class="container">
+      <div class="news">
+        <div class="btn-tag">
+          <span>NEWS</span>
+        </div>
+        <div class="current-series">
+          <div>
+            <h2>Coming Soon</h2>
+            <div class="btn">
+              <span><a href="#">LOAD MORE</a></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

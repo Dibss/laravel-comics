@@ -1,7 +1,7 @@
 @import '../utilities/variables';
 
 main{
-  background-color: $bg-main;
+  .bg-dark{background-color: $bg-main;}
   .container{
     width: 70%;
     margin: 0 auto;
