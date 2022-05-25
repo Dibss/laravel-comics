@@ -194,7 +194,7 @@ main .container .comic-page {
 }
 
 main .container .comic-page__overview {
-  flex-basis: 75%;
+  flex-basis: 66.6666666667%;
 }
 
 main .container .comic-page__overview h2 {
@@ -206,8 +206,8 @@ main .container .comic-page__overview h2 {
 main .container .comic-page__overview .price {
   background-color: #55ba59;
   height: 5vh;
-  width: 88%;
-  margin: 1.2em 0;
+  width: 90%;
+  margin: 1.2em 0 0.9em;
   font-weight: 700;
   display: flex;
 }
@@ -242,8 +242,15 @@ main .container .comic-page__overview .price__right span {
   color: #fff;
 }
 
+main .container .comic-page__overview p {
+  font-weight: normal;
+  line-height: 1.4;
+  color: #555555;
+  width: 90%;
+}
+
 main .container .comic-page__ad {
-  flex-basis: 25%;
+  flex-basis: 33.3333333333%;
   display: flex;
   justify-content: center;
 }
@@ -262,11 +269,62 @@ main .container .comic-page__ad img {
   height: auto;
 }
 
-main .features {
+main .container .comic-page-details {
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  padding: 1em 0;
+}
+
+main .container .comic-page-details .talent,
+main .container .comic-page-details .specs {
+  flex-basis: 50%;
+}
+
+main .container .comic-page-details .talent h3,
+main .container .comic-page-details .specs h3 {
+  width: 90%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dcdcdc;
+  color: #003f5e;
+}
+
+main .container .comic-page-details .talent div,
+main .container .comic-page-details .specs div {
+  padding: 0.5em 0;
+  width: 90%;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  align-items: center;
+}
+
+main .container .comic-page-details .talent div h4,
+main .container .comic-page-details .specs div h4 {
+  flex-basis: 40%;
+  color: #003f5e;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+main .container .comic-page-details .talent div span,
+main .container .comic-page-details .specs div span {
+  flex-basis: 60%;
+  font-size: 0.8rem;
+  color: #555555;
+}
+
+main .container .comic-page-details .talent div span a,
+main .container .comic-page-details .specs div span a {
+  text-decoration: none;
+  color: #0282f9;
+  font-weight: 700;
+}
+
+main .container .features {
   background-color: #0282f9;
 }
 
-main .features__content {
+main .container .features__content {
   width: 65%;
   margin: 0 auto;
   display: flex;
@@ -275,24 +333,24 @@ main .features__content {
   padding: 1em 0;
 }
 
-main .features__content div {
+main .container .features__content div {
   display: flex;
   align-items: center;
 }
 
-main .features__content div a {
+main .container .features__content div a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   padding: 0 1em;
 }
 
-main .features__content div img {
+main .container .features__content div img {
   width: 3vw;
   height: auto;
 }
 
-main .features__content div #shop-locator {
+main .container .features__content div #shop-locator {
   width: 2.5vw;
 }
 
